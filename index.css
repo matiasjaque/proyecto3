@@ -1,0 +1,92 @@
+#top{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 100px;
+    width: 100%;
+    background: lightgreen;
+    justify-content: space-between;
+}
+#primer{
+    height: 40px;
+    width: 130px;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    outline: none;
+    margin-top: 25px;
+    margin-right: 20px;
+    background: yellow;
+}
+
+#top h1{
+    font-size: 29px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+#segundo{
+    height: 40px;
+    width: 140px;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    outline: none;
+    background: yellow;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+#top button{
+    height: 50px;
+    width: 130px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    outline: none;
+    margin-top: 25px;
+    margin-right: 20px;
+    background: lightblue;
+    padding: 10px;
+}
+
+#caja{
+    height: 500px;
+    width: 100%;
+    background: #cccccc;
+    padding: 0px;
+}
+
+#caja h1{
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+#caja ul{
+    list-style-type: none;
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#caja ul li{
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background: grey;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+
+.eliminar{
+    background: red;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px;
+    visibility: hidden;
+}
+
+#caja ul li:hover .eliminar{
+    visibility: visible;
+} 
